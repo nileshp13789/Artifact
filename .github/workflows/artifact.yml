@@ -9,9 +9,9 @@ jobs:
     runs-on: unbuntu-latest
     steps:
        - name: checkout the code
-         uses: checkout@v2
+         uses: actions/checkout@v2
        - name: upload the artifact
-         uses: upload-artifact@v2
+         uses: actions/upload-artifact@v2
          with:
            name: ${{env.ARTIFACT_NAME}}
            path: .
