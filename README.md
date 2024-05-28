@@ -1,2 +1,2 @@
 # Artifact
-Create an artifact
+Create an artifact file
